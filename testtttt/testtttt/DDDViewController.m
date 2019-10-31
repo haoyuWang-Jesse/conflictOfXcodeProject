@@ -1,18 +1,18 @@
 //
-//  AAAViewController.m
+//  DDDViewController.m
 //  testtttt
 //
 //  Created by 王浩宇 on 2019/10/31.
 //  Copyright © 2019 王浩宇. All rights reserved.
 //
 
-#import "AAAViewController.h"
+#import "DDDViewController.h"
 
-@interface AAAViewController ()
+@interface DDDViewController ()
 
 @end
 
-@implementation AAAViewController
+@implementation DDDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

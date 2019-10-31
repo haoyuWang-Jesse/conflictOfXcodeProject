@@ -16,8 +16,8 @@
 		7D9F3F8822CB46F40067872F /* testttttTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3F8722CB46F40067872F /* testttttTests.m */; };
 		7D9F3F9322CB46F40067872F /* testttttUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3F9222CB46F40067872F /* testttttUITests.m */; };
 		7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3FA122CB492E0067872F /* HYTableViewCell.m */; };
-		7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B3F236AA6F0006C0686 /* AAAViewController.m */; };
 		7DB49B47236AABD5006C0686 /* CCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B46236AABD5006C0686 /* CCCViewController.m */; };
+		7DB49B4B236AACA5006C0686 /* DDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B4A236AACA5006C0686 /* DDDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		7D9F3F9422CB46F40067872F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9F3FA022CB492E0067872F /* HYTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTableViewCell.h; sourceTree = "<group>"; };
 		7D9F3FA122CB492E0067872F /* HYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
-		7DB49B3E236AA6F0006C0686 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
-		7DB49B3F236AA6F0006C0686 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
 		7DB49B45236AABD5006C0686 /* CCCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCViewController.h; sourceTree = "<group>"; };
 		7DB49B46236AABD5006C0686 /* CCCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCViewController.m; sourceTree = "<group>"; };
+		7DB49B49236AACA5006C0686 /* DDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDDViewController.h; sourceTree = "<group>"; };
+		7DB49B4A236AACA5006C0686 /* DDDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +114,8 @@
 				7DB49B41236AA901006C0686 /* FeatureB */,
 				7D9F3F6E22CB46F30067872F /* AppDelegate.h */,
 				7D9F3F6F22CB46F30067872F /* AppDelegate.m */,
+				7DB49B49236AACA5006C0686 /* DDDViewController.h */,
+				7DB49B4A236AACA5006C0686 /* DDDViewController.m */,
 				7D9F3F7422CB46F30067872F /* Main.storyboard */,
 				7D9F3F7722CB46F40067872F /* Assets.xcassets */,
 				7D9F3F7922CB46F40067872F /* LaunchScreen.storyboard */,
@@ -144,8 +146,6 @@
 		7DB49B3D236AA6E3006C0686 /* featureA */ = {
 			isa = PBXGroup;
 			children = (
-				7DB49B3E236AA6F0006C0686 /* AAAViewController.h */,
-				7DB49B3F236AA6F0006C0686 /* AAAViewController.m */,
 			);
 			path = featureA;
 			sourceTree = "<group>";
@@ -295,9 +295,9 @@
 			files = (
 				7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */,
 				7D9F3F7322CB46F30067872F /* ViewController.m in Sources */,
-				7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */,
 				7D9F3F7E22CB46F40067872F /* main.m in Sources */,
 				7DB49B47236AABD5006C0686 /* CCCViewController.m in Sources */,
+				7DB49B4B236AACA5006C0686 /* DDDViewController.m in Sources */,
 				7D9F3F7022CB46F30067872F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
