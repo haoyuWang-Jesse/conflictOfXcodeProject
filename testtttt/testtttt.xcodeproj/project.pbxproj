@@ -114,10 +114,6 @@
 				7DB49B41236AA901006C0686 /* FeatureB */,
 				7D9F3F6E22CB46F30067872F /* AppDelegate.h */,
 				7D9F3F6F22CB46F30067872F /* AppDelegate.m */,
-				7D9F3F7122CB46F30067872F /* ViewController.h */,
-				7D9F3F7222CB46F30067872F /* ViewController.m */,
-				7D9F3FA022CB492E0067872F /* HYTableViewCell.h */,
-				7D9F3FA122CB492E0067872F /* HYTableViewCell.m */,
 				7D9F3F7422CB46F30067872F /* Main.storyboard */,
 				7D9F3F7722CB46F40067872F /* Assets.xcassets */,
 				7D9F3F7922CB46F40067872F /* LaunchScreen.storyboard */,
@@ -159,6 +155,10 @@
 			children = (
 				7DB49B45236AABD5006C0686 /* CCCViewController.h */,
 				7DB49B46236AABD5006C0686 /* CCCViewController.m */,
+				7D9F3F7122CB46F30067872F /* ViewController.h */,
+				7D9F3F7222CB46F30067872F /* ViewController.m */,
+				7D9F3FA022CB492E0067872F /* HYTableViewCell.h */,
+				7D9F3FA122CB492E0067872F /* HYTableViewCell.m */,
 			);
 			path = FeatureB;
 			sourceTree = "<group>";
