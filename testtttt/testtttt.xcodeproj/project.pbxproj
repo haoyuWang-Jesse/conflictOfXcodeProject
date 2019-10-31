@@ -17,9 +17,10 @@
 		7D9F3F9322CB46F40067872F /* testttttUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3F9222CB46F40067872F /* testttttUITests.m */; };
 		7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3FA122CB492E0067872F /* HYTableViewCell.m */; };
 		7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B3F236AA6F0006C0686 /* AAAViewController.m */; };
-		7DB49B4E236AACE8006C0686 /* FFFFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B4D236AACE8006C0686 /* FFFFViewController.m */; };
 		7DB49B51236AACF7006C0686 /* EEEEEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B50236AACF7006C0686 /* EEEEEViewController.m */; };
 		7DB49B5A236AB407006C0686 /* JJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B59236AB407006C0686 /* JJJViewController.m */; };
+		7DB49B5D236AB596006C0686 /* KKKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B5C236AB596006C0686 /* KKKKViewController.m */; };
+		7DB49B60236AB5AC006C0686 /* RRRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B5F236AB5AC006C0686 /* RRRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +61,14 @@
 		7D9F3FA122CB492E0067872F /* HYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
 		7DB49B3E236AA6F0006C0686 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
 		7DB49B3F236AA6F0006C0686 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
-		7DB49B4C236AACE8006C0686 /* FFFFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFFViewController.h; sourceTree = "<group>"; };
-		7DB49B4D236AACE8006C0686 /* FFFFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFFFViewController.m; sourceTree = "<group>"; };
 		7DB49B4F236AACF7006C0686 /* EEEEEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEEEEViewController.h; sourceTree = "<group>"; };
 		7DB49B50236AACF7006C0686 /* EEEEEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEEEEViewController.m; sourceTree = "<group>"; };
 		7DB49B58236AB407006C0686 /* JJJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJJViewController.h; sourceTree = "<group>"; };
 		7DB49B59236AB407006C0686 /* JJJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJJViewController.m; sourceTree = "<group>"; };
+		7DB49B5B236AB596006C0686 /* KKKKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKKKViewController.h; sourceTree = "<group>"; };
+		7DB49B5C236AB596006C0686 /* KKKKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKKKViewController.m; sourceTree = "<group>"; };
+		7DB49B5E236AB5AC006C0686 /* RRRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRRViewController.h; sourceTree = "<group>"; };
+		7DB49B5F236AB5AC006C0686 /* RRRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,10 @@
 				7DB49B50236AACF7006C0686 /* EEEEEViewController.m */,
 				7DB49B58236AB407006C0686 /* JJJViewController.h */,
 				7DB49B59236AB407006C0686 /* JJJViewController.m */,
+				7DB49B5B236AB596006C0686 /* KKKKViewController.h */,
+				7DB49B5C236AB596006C0686 /* KKKKViewController.m */,
+				7DB49B5E236AB5AC006C0686 /* RRRViewController.h */,
+				7DB49B5F236AB5AC006C0686 /* RRRViewController.m */,
 				7D9F3F7422CB46F30067872F /* Main.storyboard */,
 				7D9F3F7722CB46F40067872F /* Assets.xcassets */,
 				7D9F3F7922CB46F40067872F /* LaunchScreen.storyboard */,
@@ -156,8 +163,6 @@
 			children = (
 				7DB49B3E236AA6F0006C0686 /* AAAViewController.h */,
 				7DB49B3F236AA6F0006C0686 /* AAAViewController.m */,
-				7DB49B4C236AACE8006C0686 /* FFFFViewController.h */,
-				7DB49B4D236AACE8006C0686 /* FFFFViewController.m */,
 			);
 			path = featureA;
 			sourceTree = "<group>";
@@ -305,11 +310,12 @@
 			files = (
 				7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */,
 				7D9F3F7322CB46F30067872F /* ViewController.m in Sources */,
+				7DB49B5D236AB596006C0686 /* KKKKViewController.m in Sources */,
 				7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */,
 				7DB49B5A236AB407006C0686 /* JJJViewController.m in Sources */,
 				7D9F3F7E22CB46F40067872F /* main.m in Sources */,
-				7DB49B4E236AACE8006C0686 /* FFFFViewController.m in Sources */,
 				7D9F3F7022CB46F30067872F /* AppDelegate.m in Sources */,
+				7DB49B60236AB5AC006C0686 /* RRRViewController.m in Sources */,
 				7DB49B51236AACF7006C0686 /* EEEEEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
