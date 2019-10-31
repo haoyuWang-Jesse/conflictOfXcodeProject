@@ -17,8 +17,8 @@
 		7D9F3F9322CB46F40067872F /* testttttUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3F9222CB46F40067872F /* testttttUITests.m */; };
 		7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3FA122CB492E0067872F /* HYTableViewCell.m */; };
 		7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B3F236AA6F0006C0686 /* AAAViewController.m */; };
-		7DB49B4E236AACE8006C0686 /* FFFFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B4D236AACE8006C0686 /* FFFFViewController.m */; };
 		7DB49B51236AACF7006C0686 /* EEEEEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B50236AACF7006C0686 /* EEEEEViewController.m */; };
+		7DB49B57236AB38A006C0686 /* HHHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B56236AB38A006C0686 /* HHHViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,10 @@
 		7D9F3FA122CB492E0067872F /* HYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
 		7DB49B3E236AA6F0006C0686 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
 		7DB49B3F236AA6F0006C0686 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
-		7DB49B4C236AACE8006C0686 /* FFFFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFFViewController.h; sourceTree = "<group>"; };
-		7DB49B4D236AACE8006C0686 /* FFFFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFFFViewController.m; sourceTree = "<group>"; };
 		7DB49B4F236AACF7006C0686 /* EEEEEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEEEEViewController.h; sourceTree = "<group>"; };
 		7DB49B50236AACF7006C0686 /* EEEEEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEEEEViewController.m; sourceTree = "<group>"; };
+		7DB49B55236AB38A006C0686 /* HHHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHViewController.h; sourceTree = "<group>"; };
+		7DB49B56236AB38A006C0686 /* HHHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHHViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,8 @@
 				7D9F3F6F22CB46F30067872F /* AppDelegate.m */,
 				7DB49B4F236AACF7006C0686 /* EEEEEViewController.h */,
 				7DB49B50236AACF7006C0686 /* EEEEEViewController.m */,
+				7DB49B55236AB38A006C0686 /* HHHViewController.h */,
+				7DB49B56236AB38A006C0686 /* HHHViewController.m */,
 				7D9F3F7422CB46F30067872F /* Main.storyboard */,
 				7D9F3F7722CB46F40067872F /* Assets.xcassets */,
 				7D9F3F7922CB46F40067872F /* LaunchScreen.storyboard */,
@@ -151,8 +153,6 @@
 			children = (
 				7DB49B3E236AA6F0006C0686 /* AAAViewController.h */,
 				7DB49B3F236AA6F0006C0686 /* AAAViewController.m */,
-				7DB49B4C236AACE8006C0686 /* FFFFViewController.h */,
-				7DB49B4D236AACE8006C0686 /* FFFFViewController.m */,
 			);
 			path = featureA;
 			sourceTree = "<group>";
@@ -302,8 +302,8 @@
 				7D9F3F7322CB46F30067872F /* ViewController.m in Sources */,
 				7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */,
 				7D9F3F7E22CB46F40067872F /* main.m in Sources */,
-				7DB49B4E236AACE8006C0686 /* FFFFViewController.m in Sources */,
 				7D9F3F7022CB46F30067872F /* AppDelegate.m in Sources */,
+				7DB49B57236AB38A006C0686 /* HHHViewController.m in Sources */,
 				7DB49B51236AACF7006C0686 /* EEEEEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
