@@ -17,6 +17,7 @@
 		7D9F3F9322CB46F40067872F /* testttttUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3F9222CB46F40067872F /* testttttUITests.m */; };
 		7D9F3FA222CB492E0067872F /* HYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F3FA122CB492E0067872F /* HYTableViewCell.m */; };
 		7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B3F236AA6F0006C0686 /* AAAViewController.m */; };
+		7DB49B47236AABD5006C0686 /* CCCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49B46236AABD5006C0686 /* CCCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		7D9F3FA122CB492E0067872F /* HYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTableViewCell.m; sourceTree = "<group>"; };
 		7DB49B3E236AA6F0006C0686 /* AAAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAAViewController.h; sourceTree = "<group>"; };
 		7DB49B3F236AA6F0006C0686 /* AAAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAViewController.m; sourceTree = "<group>"; };
+		7DB49B45236AABD5006C0686 /* CCCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCViewController.h; sourceTree = "<group>"; };
+		7DB49B46236AABD5006C0686 /* CCCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		7DB49B41236AA901006C0686 /* FeatureB */ = {
 			isa = PBXGroup;
 			children = (
+				7DB49B45236AABD5006C0686 /* CCCViewController.h */,
+				7DB49B46236AABD5006C0686 /* CCCViewController.m */,
 			);
 			path = FeatureB;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				7D9F3F7322CB46F30067872F /* ViewController.m in Sources */,
 				7DB49B40236AA6F0006C0686 /* AAAViewController.m in Sources */,
 				7D9F3F7E22CB46F40067872F /* main.m in Sources */,
+				7DB49B47236AABD5006C0686 /* CCCViewController.m in Sources */,
 				7D9F3F7022CB46F30067872F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
