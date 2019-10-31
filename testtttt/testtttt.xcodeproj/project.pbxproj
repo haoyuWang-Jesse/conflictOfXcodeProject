@@ -152,6 +152,8 @@
 				7DB49B3F236AA6F0006C0686 /* AAAViewController.m */,
 			);
 			path = featureA;
+            sourceTree = "<group>";
+            };
 		7DB49B41236AA901006C0686 /* FeatureB */ = {
 			isa = PBXGroup;
 			children = (
